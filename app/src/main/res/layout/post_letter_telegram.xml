@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFD8D8">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Letter/Telegram"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Address"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/fromAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:inputType="textImeMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Address"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/toAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:inputType="textImeMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Letter Context"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/letterContext"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textColor="@color/black"
+        android:inputType="textImeMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"/>
+<Spinner
+    android:id="@+id/type"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:background="@color/teal_700"/>
+</LinearLayout>

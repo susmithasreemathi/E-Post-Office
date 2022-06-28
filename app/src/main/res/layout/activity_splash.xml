@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFD8D8"
+    tools:context=".SplashActivity">
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-PostOffice"
+        android:textColor="#F31C0C"
+        android:textSize="55dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"/>
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/lottie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:lottie_autoPlay="true"
+    app:lottie_rawRes="@raw/letter"/>
+</LinearLayout>

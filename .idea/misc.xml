@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/drawable/button_background.xml" value="0.1945" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/activity_splash.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/app_bar.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/create_fixed_deposit.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/my_profile.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/options.xml" value="0.25" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/post_letter_telegram.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/profile_update.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/sample.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/sample2.xml" value="0.16032608695652173" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/user_login.xml" value="0.25" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/user_register.xml" value="0.25" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/view_fixed_deposit.xml" value="0.33" />
+        <entry key="..\:/Android Projects/EPostOffice/app/src/main/res/layout/view_letter_telegram.xml" value="0.203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
